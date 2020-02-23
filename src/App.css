@@ -1,0 +1,19 @@
+.App {
+	margin: 0 auto;
+	max-width: 560px;
+	min-width: 320px;
+	font-family: "PT Sans", sans-serif;
+	font-size: 17px;
+	text-align: center;
+}
+.App h1 {
+	font-size: 48px;
+	font-weight: 600;
+}
+.App ul {
+	padding: 0;
+	width: 100%;
+}
+.ul_border_top {
+	border-top: 1px solid #e5e5e5;
+}

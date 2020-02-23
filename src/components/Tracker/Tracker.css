@@ -1,0 +1,23 @@
+.Tracker {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 6px 20px 21px;
+	font-weight: 600;
+	color: #000;
+	transition: 0.3s ease;
+	border-bottom: 1px solid #e5e5e5;
+}
+.Tracker div {
+	display: flex;
+	align-items: center;
+}
+.Tracker span {
+	transition: 0.3s ease-in;
+}
+.Tracker_active {
+	background-color: #fdfdf6;
+}
+.Tracker_active span {
+	color: #3faf6c;
+}

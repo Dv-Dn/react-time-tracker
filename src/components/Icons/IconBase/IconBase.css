@@ -1,0 +1,10 @@
+.IconBase {
+	cursor: pointer;
+	transition: 0.1s ease-in;
+	border-radius: 50px;
+}
+.IconBase:hover {
+	transform: scale(1.1);
+	-webkit-box-shadow: 0 0 11px 11px #8f8f8f;
+	box-shadow: 0 0 6px 3px #8f8f8f;
+}
