@@ -81,7 +81,7 @@ export default function App() {
 			.map((a, i) => {
 				return (
 					<Tracker
-						key={i + a.initialTime}
+						key={a.initialTime}
 						name={a.name}
 						active={a.isActive}
 						startTime={a.startTime}
